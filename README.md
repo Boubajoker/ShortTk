@@ -5,7 +5,7 @@ A python module that shorts the Tkinter root setup.
 ## How to install ShortTk ?
 
 To install ShortTk go to <a href="https://boubajoker.github.io/ShortTk">ShortTk Online web page</a> and downlaod the "last realese of ShortTk requied Tools".
-Then, extract the requied tools in your project and execute 'DownlaodRealeses.exe' and then type 'setup --setup' in the terminal input if you have'nt installed the module 'request'. And Then restart the shell and type 'short_tk --update', it will downlaod the last stable realese of short_tk. Then extract the 'short_tk.zip' file and the setup is finished ! 
+Then, extract the requied tools in your project and execute 'DownlaodRealeses.py' and then type 'setup --setup' in the terminal input if you have'nt installed the module 'request'. And Then restart the shell and type 'short_tk --update', it will downlaod the last stable realese of short_tk. Then extract the 'short_tk.zip' file and the setup is finished ! 
 
 ## How To Use ShortTk ?
 
