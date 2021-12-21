@@ -1,0 +1,1 @@
+bash start "short_tk/__init__.py"

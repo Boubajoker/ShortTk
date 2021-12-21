@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "DebugJS : DebugDocs",
+            "request": "launch",
+            "type": "pwa-chrome",
+            "url": "http://127.0.0.1:5500/docs/",
+            "webRoot": "${workspaceFolder}/docs/"
+        },
+        {
+            "name": "Python : DebugFile",
+            "type": "python",
+            "request": "launch",
+            "program": "${fileBasenameNoExtension}.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python : ShortTk Test file",
+            "type": "python",
+            "request": "launch",
+            "program": "client.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

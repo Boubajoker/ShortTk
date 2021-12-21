@@ -1,0 +1,49 @@
+{
+    "name" : "shortTk",
+    "short_name" : "srtTk",
+    "version" : "0.0.1 Alpha A-1",
+    "description" : "A simple python module that shorten the Tkinter setup",
+    "icon" : "${fileDirname}\\assets\\icon\\favicon.PNG",
+    "Interpreted" : true,
+    "Compiled" : false,
+    "PublicExecutables" : null,
+    "GitHubComponents" : [
+        {
+            "GitHubComponents.README_path" : "${fileDirname}\\README.md",
+            "GitHubComponents.CODE_OF_CONDUCT_path" : "${fileDirname}\\CODE_OF_CONDUCT.md",
+            "GitHubComponents.CONTRIBUTING_path" : "${fileDirname}\\CONTRIBUTING.md",
+            "GitHubComponents.SECURITY_path" : "${fileDirname}\\SECURITY.md",
+            "GitHubComponents.LICENSE_path" : "${fileDirname}\\LICENSE",
+            "GitHubComponents.CREDITS_path" : "${fileDirname}\\CREDITS.md",
+            "GitHubComponents.AUTHORS_path" : "${fileDirname}\\AUTHORS.md",
+            "GitHubComponents.CHANGELOG_path" : "${fileDirname}\\CHANGELOG.md",
+            "GitHubComponents.CopyRight_path" : "${fileDirname}\\CopyRight.txt",
+            "GitHubComponents.gitignore_path" : "${fileDirname}\\.gitignore",
+            "GitHubComponents.gitattributes_path" : "${fileDirname}\\.gitattribute",
+            "GitHubComponents.ThirdPartyNotice_path" : "${fileDirname}\\ThirdPartyNotice.txt"
+        }
+    ],
+    "Interpreter" : [
+        {
+            "Interpreter.name" : "Python",
+            "Interpreter.version" : "3.8.10",
+            "Interpreter.path" : "C:\\Program Files\\Python38\\python.exe"
+        }
+    ],
+    "Scripts" : [
+        "client.py",
+        "DownlaodRealeses.py",
+        "short_tk/__init__.py",
+        "lib/__init__.py",
+        "lib/Shell.py"
+    ],
+    "Modules" : [
+        "requests",
+        "tkinter",
+        "short_tk"
+    ],
+    "LocalesModules" : [
+        "short_tk",
+        "ShellLib"
+    ]
+}

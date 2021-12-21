@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" href="assets/icon/favicon.PNG" type="image/x-icon">
+    <title>ShortTk - Documentation</title>
+</head>
+<body>
+    <div class="welcome-container" id="welcome_container">
+        <h1 class="title" id="title">ShortTk</h1>
+        <p class="desc" id="desc">A simple python module that shorten the tkinter window setup</p>
+    </div>
+    <div class="section-1" id="section_1">
+        <h2 class="section-1" id="section_1">Root variable</h2>
+        <p class="section-1-a" id="section_1_a">The root variable is the variable that contain the Tk() object from tkinter. It can be used in elements placing for example:</p>
+        <pre id="code_1">
+        1 import short_tk
+        2
+        3 short_tk.Window(root_title=data, root_size=data, root_bg=data, root_favicon=data)
+        4
+        5 label = Label(short_tk.root, text="hello world!")   
+        6 label.pack()  ^^^^^^^^^^^^^ 
+        7    
+        8 short_tk.Loop(loop=True)
+        </pre>
+    </div>
+    <div class="section-2" id="section_2">
+        <h2 class="section-2" id="section_2">Window object</h2>
+        <p class="section-2-a" id="section_2_a">Window object is for generate simple window based on the Tk() object from tkinter. Example:</p>
+        <pre id="code_2">
+        1 import short_tk
+        2
+        3 short_tk.Window(root_title=data, root_size=data, root_bg=data, root_favicon=data)
+                 ^^^^^^
+        </pre>
+    </div>
+    <div class="section-3" id="section_3">
+        <h2 class="section-3" id="section_3">Loop function</h2>
+        <p class="section-3-a" id="section_3_a">Loop function is for create a loop for the window, this function is based on the mainloop porperty of Tkinter(Tcl/Tk components)for example:</p>
+        <pre id="code_3">
+            1 import short_tk
+            2
+            3 short_tk.Window(root_title=data, root_size=data, root_bg=data, root_favicon=data)
+            4
+            5 # tkinter code 
+            6
+            7 short_tk.Loop(loop=True)
+        </pre>
+    </div>
+    <div class="section-4" id="section_4">
+        <h2 class="section-4" id="section_4">Conf function [Beta]</h2>
+        <p class="section-4-a" id="section_4_a">Conf function is for configure the window based on the config property of Tkinter(Tcl/Tk components) for example:</p>
+        <pre id="code_4">
+            1 import short_tk
+            2 short_tk.Window(root_title=data, root_size=data, root_bg=data, root_favicon=data)
+            3
+            4 # Tkinter code
+            5
+            6 short_tk.Window.Conf(data)
+                              ^^^^^^^^^^
+            7 short_tk.Window.Loop(loop=True)
+        </pre>
+    </div>
+    <div class="section-5" id="section_5">
+        <h2 class="section-5" id="section_5">Err, Warn, Info function</h2>
+        <p class="section-5-a" id="section_5_a">The Err, Warn and Info function is the functions that are based from the Tk() object from tkinter. For example:</p>
+        <pre id="code_5">
+            1 import short_tk
+            2 short_tk.Window(root_title=data, root_size=data, root_bg=data, root_favicon=data)
+            3 
+            4 short_tk.Window.Err("MyApp:", "A test Error!")
+            5                 ^^^    
+            6 short_tk.Window.Warn("MyApp:", "A test Warning!")
+            7                 ^^^^
+            8 short_tk.Window.Info("MyApp:", "A test Info.")
+            9                 ^^^^
+            10 short_tk.Window.Loop(loop=True)
+        </pre>
+    </div>
+    <div class="downlaod-container" id="downlaod_container">
+        <button class="downlaod-btn" id="downlaod_btn">Download last realese of ShortTk requied Tools</button>
+    </div>
+    <h3 class="end-msg" id="end_msg">Happy Coding !</h3>
+    <script src="JS/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/*! ======================================================
+
+ShortTk Copyright (c) Boubajoker 2021. All right reserved.
+Project under MIT License.
+
+<!--ThirdPartyNotice
+
+ShortTk staff respect your private life: no cookies or logs systems are used
+in this project.
+
+--!>
+========================================================== !*/

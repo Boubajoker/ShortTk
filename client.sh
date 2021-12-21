@@ -1,0 +1,1 @@
+bash start "client.pyw"
