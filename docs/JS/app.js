@@ -7,9 +7,9 @@ let conf_func = document.querySelector("#code_4");
 let errwarninfo_func = document.querySelector("#code_5");
 
 download_btn.addEventListener('click', (e)=>{
-    fetch("assets/others/Short_tk_requied_tools.zip")
+    fetch("assets/others/ShortTkRequiedTools.zip")
     .then(
-        window.open("assets/others/Short_tk_requied_tools.zip")
+        window.open("assets/others/ShortTkRequiedTools.zip")
     )
     .catch(e.err, (e)=>{
         console.error(e.err);
