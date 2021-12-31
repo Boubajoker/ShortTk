@@ -1,1 +1,1 @@
-bash start "client.pyw"
+bash start "client.py"
